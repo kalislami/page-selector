@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Page Selector</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="card">
+            <div class="list">
+                <div class="row header selectable">
+                    <span>All pages</span>
+                    <input class="checked-hover-blank" type="checkbox" />
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="row selectable">
+                    <span>Page 1</span>
+                    <input class="checked-hover-blank" type="checkbox" />
+                </div>
+                <div class="row selectable">
+                    <span>Page 2</span>
+                    <input type="checkbox" />
+                </div>
+                <div class="row selectable">
+                    <span>Page 3</span>
+                    <input class="uncheck-hover-with-icon" type="checkbox" />
+                </div>
+                <div class="row selectable">
+                    <span>Page 4</span>
+                    <input class="uncheck-hover-with-icon" type="checkbox" />
+                </div>
+
+                <div class="divider"></div>
+
+                <button class="done-btn">Done</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
